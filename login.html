@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+</head>
+
+<body class="logPage">
+    <div class="navigationBar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">eComCorner</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <h6><a class="nav-link active" aria-current="page" href="index.html">Home</a></h6>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>    
+    </div>
+    <div class="loginform">
+        <form name="myform" method="post" action="/login">
+            <h2>Login or Register</h2>
+            <div>
+                <input type="text" name="email" placeholder="Username or email">
+            </div>
+            <div>
+                <label for="password"></label>
+                <input type="password" name="Loginpassword" placeholder="password">
+            </div>
+            <button type="submit">Login</button>
+            <div id="formfooter">
+                <div>
+                    <input type="checkbox">
+                    <label for="">Remember User</label>
+                </div>
+                <div>
+                    <a href="">Forgot password?</a>
+                </div>
+            </div>
+        </form>
+    <div class="logformfooter">
+        <p>New here?<a href="registration.html">Register</a></p>
+    </div>
+    <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
