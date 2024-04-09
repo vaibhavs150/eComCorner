@@ -1,4 +1,4 @@
-# Myntra Clone: Front-end Project
+# eComCorner: E-commerce Front-end Project
 #Overview:
 This repository hosts a front-end project that replicates the user interface and functionalities of the popular e-commerce platform, Myntra. Built using HTML, CSS, and JavaScript, this project aims to provide a comprehensive clone of Myntra's website, offering users a familiar browsing and shopping experience.
 
